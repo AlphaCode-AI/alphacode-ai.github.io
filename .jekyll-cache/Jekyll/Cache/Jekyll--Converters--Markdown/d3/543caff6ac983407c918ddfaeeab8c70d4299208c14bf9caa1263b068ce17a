@@ -1,0 +1,41 @@
+I"�<blockquote>
+  <p>Machine Learning 스터디를 하면서 기술 블로그도 정리해 봅시다. 😎</p>
+</blockquote>
+
+<ul>
+  <li>Machine Learning</li>
+  <li>Visual Recognition</li>
+  <li>Data Analytics</li>
+  <li>.. etc.</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">마크다운</code> 으로 작성하면 좋겠네요.</p>
+
+<blockquote>
+  <p>마크다운을 더 잘 알고 싶다면 아래 링크를 방문해 주세요.</p>
+</blockquote>
+
+<ul>
+  <li>
+    <p><a href="https://www.markdownguide.org/basic-syntax/">외부 링크 예시 Markdown Basic Syntax</a></p>
+  </li>
+  <li>
+    <p>이미지 삽입 예시</p>
+
+    <p><img src="https://img.mz.co.kr/wp-content/uploads/2020/12/24153356/logo_aws.jpg" width="200" />
+<img src="https://img.mz.co.kr/wp-content/uploads/2020/12/24153354/logo_googlecloud.jpg" width="200" />
+<img src="https://img.mz.co.kr/wp-content/uploads/2020/12/24153354/logo_microsoftazure.jpg" width="200" /></p>
+  </li>
+  <li>
+    <p>code block 예시</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; print('Hello, World')
+Hello, World
+</code></pre></div></div>
+
+<ul>
+  <li>더 이상의 설명은 생략합니다. 😎</li>
+</ul>
+:ET

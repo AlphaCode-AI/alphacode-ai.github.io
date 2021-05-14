@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: AI Center Tech Blog
+email: ai_center_biz@mz.co.kr
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  국내 최최 & 최대 클라우드 프리미어 컨설팅 파트너. AI 컨설팅, ML 기반 빅데이터 비즈니스 컨설팅, AI 시스템 구축, AI 모델 개발 제공.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: megazonecloud
+github_username:  mzcloudnoa
 
 # Build settings
 theme: minima
