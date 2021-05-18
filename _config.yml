@@ -23,14 +23,57 @@ email: ai_center_biz@mz.co.kr
 description: >- # this means to ignore newlines until "baseurl:"
   국내 최초 & 최대 클라우드 프리미어 컨설팅 파트너. AI 컨설팅, ML 기반 빅데이터 비즈니스 컨설팅, AI 시스템 구축, AI 모델 개발 제공.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mzcloudnoa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: megazonecloud
 github_username:  mzcloudnoa
 
+# THEME-SPECIFIC CONFIGURATION
+avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
+favicon: assets/favicon.ico                             # Icon displayed in the tab
+
+# Header and footer text
+header_text: AI Center Tech Blog (𝛂)  # Change Blog header text
+header_feature_image: assets/img/pexels/triangular.jpeg
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+
+# Blog
+excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
+post_navigation: true
+color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+
+# Features
+# More in the _data folder for social icons, share buttons, author and language
+# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
+katex: true                                             # Enable if using math markup
+mermaid: true                                           # Enable mermaid-js for sequence and diagrams
+google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
+cookie_consent: false                                   # To respect the usage of cookies
+disqus_shortname:                                       # Your discus shortname for comments
+cusdis_app_id:                                          # Your cusdis data-app-id
+color_theme: auto                                       # auto, dark or light
+
+# PAGINATION
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
 # Build settings
-theme: minima
-plugins:
+theme: type-on-strap
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-feed
+exclude:
+  - .jekyll-cache
+  - .idea
+  - vendor/*
+  - assets/node_modules/*
 
 # Exclude from processing.
 # The following items will not be processed, by default.
