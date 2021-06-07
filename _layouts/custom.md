@@ -35,3 +35,11 @@ layout: default
 <!-- Disqus -->
 {% if site.disqus_shortname or site.theme_settings.disqus_shortname %}
 {% include social/disqus.html %}{% endif %}
+
+<script src="https://utteranc.es/client.js"
+        repo="MZCloudnoa/mzcloudnoa.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
