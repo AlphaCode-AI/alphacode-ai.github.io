@@ -69,6 +69,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-jupyter-notebook
 exclude:
   - .jekyll-cache
   - .idea
@@ -94,5 +95,3 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-plugins:
-  - jekyll-jupyter-notebook
