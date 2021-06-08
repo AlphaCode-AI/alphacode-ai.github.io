@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5-1. 결정 트리
+title: 결정 트리
 date: 2021-06-07
 author: naran
 tags: [Machine learning, Decision Tree, Algorithm, Classification, Regression, Study]
@@ -16,11 +16,15 @@ tags: [Machine learning, Decision Tree, Algorithm, Classification, Regression, S
 
 - 결과 모델이 Tree 구조를 가지고 있기 때문에 Decision Tree
 - 스무고개 하듯이 예/아니오 질문을 이어 나가면서 학습
+- 결정 트리에서 질문이나 정답은 노드<sup>Node</sup>라고 함
+	- 맨 처음 분류 기준을 Root Node
+	- 중간 분류 기준을 Intermediate Node
+	- 마지막 노드를 Terminal Node 또는 Leaf Node
+- 결정 트리의 기본 아이디어는 Leaf Node가 가장 섞이지 않은 상태로 완전히 분류되는 것
 - 분류와 회귀 문제에 널리 사용하는 모델
-	- 분류 : 리프 노드에 가장 많은 클래스가 예측 클래스가 됨
-	- 회귀 : 리프 노드에 도달한 샘플의 타겟을 평균하여 예측값으로 사용
-- 앙상블 학습 알고리즘의 기반
-	- 앙상블 학습은 신경망과 함께 가장 높은 성능을 내기 때문에 인기가 높음
+	- 분류 : Leaf Node에 가장 많은 클래스가 예측 클래스가 됨
+	- 회귀 : Leaf Node에 도달한 샘플의 타겟을 평균하여 예측값으로 사용
+
 
 ---
 
@@ -113,9 +117,16 @@ tags: [Machine learning, Decision Tree, Algorithm, Classification, Regression, S
 
 ### 장점
 - 분석결과가 '조건A && 조건B = 결과 C'라는 형태의 규칙으로 표현되므로 쉽게 이해하고 활용 할 수 있음
+- 만들어진 모델을 쉽게 시각화 할 수 있어서 비전문가도 이해하기 쉬움 (특성이 몇개 없어 트리가 비교적 작을 때)
 - 특성값의 스케일이 알고리즘에 영향을 미치지 않아 표준화 전처리를 할 필요가 없음
+- 수치형과 범주형 변수를 한꺼번에 다룰 수 있음
 - 특성 중요도<sup>특성이 불순도를 감소하는데 기여한 정도</sup>를 계산 할 수 있음
-	- 특성 선택에 확용할 수 있음
+	- 특성 선택에 활용할 수 있음
 
 ---
+
+### 단점
+- 가지치기를 사용함에도 불구하고 과대적합<sup>Overfitting</sup>되는 경향이 있어 일반화 성능이 좋지 않음
+
+=> 앙상블 방법을 결정 트리의 대안으로 사용 (다음 장에서!)
 
