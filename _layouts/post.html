@@ -30,10 +30,9 @@ layout: default
   {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
   {% include default/tags_list.html tags=tag_list %}
   
-  <!-- comments -->
-  {% if page.comments != false %}
-    {% include disqus_comments.html %}
-  {% endif %}
+  
+
+
 
 </article>
 
@@ -45,9 +44,7 @@ layout: default
 <!-- Cusdis -->
 {% if site.cusdis_app_id %}{% include social/cusdis.html %}{% endif %}
 
-<!-- Disqus -->
-{% if site.disqus_shortname or site.theme_settings.disqus_shortname %}
-{% include social/disqus.html %}{% endif %}
+
 
 <!-- To change color of links in the page -->
 <style>
