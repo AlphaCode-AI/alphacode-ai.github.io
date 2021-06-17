@@ -83,8 +83,9 @@ for i in train_labels:
 1  
 0  
 1  
->
+>  
 
+[텐서플로우 문서-tf.keras](https://www.tensorflow.org/api_docs/python/tf/keras/Sequential)에 들어가면 지원하는 데이터 타입을 확인할 수 있다.
 ```python
 train_labels = np.array(train_labels)
 train_samples = np.array(train_samples)
