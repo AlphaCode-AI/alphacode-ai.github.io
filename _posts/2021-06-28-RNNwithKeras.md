@@ -71,6 +71,9 @@ window_size는 내가 얼마동안(기간)의 주가 데이터를 기반으로 �
 GCP AutoML에서의 historical data feed size와 동일한 개념입니다.  
 해당 예제에서는 과거 20일을 기준으로 그 다음날의 데이터를 예측해보겠습니다.  
 ```python  
+TEST_SIZE = 200
+WINDOW_SIZE = 20
+
 train = df_scaled[:-TEST_SIZE]
 test = df_scaled[-TEST_SIZE:]
 ```   
