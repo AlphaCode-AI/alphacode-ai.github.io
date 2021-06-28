@@ -7,7 +7,7 @@ tags: RNN
 author: yunsu
 ---
   
-  
+
 오늘은 RNN 모델중 하나인 LSTM을 통해 삼성전자 주가를 예측해보겠습니다.  
 # 데이터셋 생성  
 데이터셋을 다운로드 하고자 하는 경우 [링크](http://bit.ly/2SJUtyY)에 접속하여 받을 수 있습니다.  
@@ -156,15 +156,6 @@ history = model.fit(x_train, y_train,
 ```  
 Early Stop 옵션으로 인해 18번째 Epoch 기준 0.00002의 평균오차에서 학습이 포화되어 중단됐습니다.  
 다음으로 학습한 모델로 미래 주가 예측을 해보겠습니다.  
-```python  
-def make_dataset(data, label, window_size=20):
-    feature_list = []
-    label_list = []
-    for i in range(len(data) - window_size):
-        feature_list.append(np.array(data.iloc[i:i+window_size]))
-        label_list.append(np.array(label.iloc[i+window_size]))
-    return np.array(feature_list), np.array(label_list)
-```   
 ```python  
 # weight 로딩
 model.load_weights(filename)
