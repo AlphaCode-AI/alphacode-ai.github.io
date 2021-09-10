@@ -32,7 +32,7 @@ In the BigQuery console, with the table to export open, click on `EXPORT` at the
 
 The pannel on the right of the window should look like this:
 
-![pannel at start](/Users/mzc01-charlie/mzcloudnoa/assets/img/Charlie/article_3/pannel_at_start.png)
+![pannel at start](/assets/img/Charlie/article_3/pannel_at_start.png)
 
 Let's start by choosing a chart type. The one used above is a combo chart.
 
