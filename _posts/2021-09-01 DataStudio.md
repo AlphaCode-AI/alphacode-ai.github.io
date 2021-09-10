@@ -1,6 +1,6 @@
 ---
 Layout: post
-Published: false
+Published: true
 title: "Visualizing data in Google's Data Studio"
 feature-img: "/assets/img/Charlie/article_3/datastudio_thumbnail.png"
 thumbnail:  "/assets/img/Charlie/article_3/datastudio_thumbnail.png"
