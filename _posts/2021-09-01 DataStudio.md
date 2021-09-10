@@ -14,9 +14,9 @@ author: charlie
 
 Useful links:
 
-- add datastudio link
+- [Data Studio](https://datastudio.google.com/ "Data Studio home page")
 
-in order to display our data as below, here are the steps to follow:
+In order to display our data as below, here are the steps to follow:
 
  ![data prediction visualized](/assets/img/Charlie/article_3/final_result_visualized.png)
 
