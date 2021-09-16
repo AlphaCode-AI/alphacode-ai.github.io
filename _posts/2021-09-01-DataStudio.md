@@ -14,7 +14,7 @@ author: charlie
 
 Useful links:
 
-> [Data Studio](https://datastudio.google.com/ "Data Studio home page"){:target="_blank"}
+> [Data Studio](https://datastudio.google.com/ "Data Studio home page")
 
 In order to display our data as below, here are the steps to follow:
 
