@@ -3,27 +3,47 @@ alex:
   avatar: "https://avatars.githubusercontent.com/u/4377971?s=96&v=4"
   url: "https://github.com/meinzug"
 inseon:
-  name: "Inseon Choi"
+  name: "Kylie Choi"
+  avatar: "https://avatars.githubusercontent.com/u/71680872?s=96&v=4"
+  url: "https://github.com/inseonchoi"
+kylie:
+  name: "Kylie Choi"
   avatar: "https://avatars.githubusercontent.com/u/71680872?s=96&v=4"
   url: "https://github.com/inseonchoi"
 jinah:
-  name: "Jinah Kim"
+  name: "Gem Kim"
+  avatar: "https://avatars.githubusercontent.com/u/40387805?s=96&v=4"
+  url: "https://github.com/rlawlsdk"
+gem:
+  name: "Gem Kim"
   avatar: "https://avatars.githubusercontent.com/u/40387805?s=96&v=4"
   url: "https://github.com/rlawlsdk"
 yunsu:
-  name: "Yunsu Kim"
+  name: "Ray Kim"
   avatar: "https://avatars.githubusercontent.com/u/71686349?s=96&v=4"
   url: "https://github.com/yunsuzzang"
 yunju:
-  name: "Yunju Kim"
+  name: "Debbie Kim"
+  avatar: "https://avatars.githubusercontent.com/u/81219521?s=96&v=4"
+  url: "https://github.com/yunju345"
+debbie:
+  name: "Debbie Kim"
   avatar: "https://avatars.githubusercontent.com/u/81219521?s=96&v=4"
   url: "https://github.com/yunju345"
 naran: # author-id
-  name: "Naran Choi"
+  name: "Emma Choi"
+  avatar: "https://avatars.githubusercontent.com/u/42714676?s=96&v=4"
+  url: "https://github.com/asterisk-naran"
+emma: # author-id
+  name: "Emma Choi"
   avatar: "https://avatars.githubusercontent.com/u/42714676?s=96&v=4"
   url: "https://github.com/asterisk-naran"
 kihong:
-  name: "Kihong Kim"
+  name: "Roy Kim"
+  avatar: "https://avatars.githubusercontent.com/u/62204432?v=4"
+  url: "https://github.com/kihongk"
+roy:
+  name: "Roy Kim"
   avatar: "https://avatars.githubusercontent.com/u/62204432?v=4"
   url: "https://github.com/kihongk"
 charlie:
