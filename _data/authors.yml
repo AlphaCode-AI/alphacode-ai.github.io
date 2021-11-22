@@ -50,7 +50,10 @@ charlie:
   name: "Charlie Porte"
   avatar: "https://avatars.githubusercontent.com/u/61321660?v=4"
   url: "https://github.com/mooncharlie"
-    
+cindy:
+  name: "Cindy Park"
+  avatar: "https://avatars.githubusercontent.com/u/29768462?v=4"
+  url: "https://github.com/misun0325"  
 unknown:
   name: Unknown
   avatar:
