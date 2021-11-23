@@ -1,1 +1,1 @@
-# [Shortcuts](https://mzcloudnoa.github.io/)
+# [바로가기](https://mzcloudnoa.github.io/)
