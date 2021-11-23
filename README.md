@@ -1,1 +1,1 @@
-# [Shortcuts](mzcloudnoa.github.io)
+# [Shortcuts](https://mzcloudnoa.github.io/)
