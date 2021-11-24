@@ -185,9 +185,9 @@ Result: \n
 
 # Sources
 
-- https://www.analyticsvidhya.com/blog/2020/06/4-ways-split-decision-tree/
-- https://ai-pool.com/a/s/decision-trees
-- https://www.stat4decision.com/fr/foret-aleatoire-avec-python/
-- https://datascience.foundation/sciencewhitepaper/understanding-decision-trees-with-python
+- [](https://www.analyticsvidhya.com/blog/2020/06/4-ways-split-decision-tree/)
+- [](https://ai-pool.com/a/s/decision-trees)
+- [](https://www.stat4decision.com/fr/foret-aleatoire-avec-python/)
+- [](https://datascience.foundation/sciencewhitepaper/understanding-decision-trees-with-python)
   - [The code used in the link above](https://colab.research.google.com/drive/1pBCYRM8IJEAd1d7FC9vsWuBV7qS4vjl1?usp=sharing#scrollTo=_Fov9B0-uf7R)
 - [The code used in this article](https://colab.research.google.com/drive/1uWsrtLIalSP3Jd7Ntg_EL8P-7NWQ2Ikh?usp=sharing)
