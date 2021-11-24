@@ -37,11 +37,11 @@ With logistic regression, decision trees are quite popular models and each have 
 
 | Criteria                      |   Logistic Regression    |  Decision Tree Classification   |
 | ----------------------------- | :----------------------: | :-----------------------------: |
-| Interpretability              |    :heavy_minus_sign:    |        :heavy_plus_sign:        |
+| Interpretability              |    ➖   |        ➕        |
 | Decision boundaries           |    Linear and single     | Divides space into smaller ones |
 | Ease of decision making       | Set a threshold manually |            Automatic            |
-| Overfitting sensitivity       |    :heavy_minus_sign:    |        :heavy_plus_sign:        |
-| Noise sensitivity             |    :heavy_minus_sign:    |        :heavy_plus_sign:        |
+| Overfitting sensitivity       |   ➖    |        ➕        |
+| Noise sensitivity             |    ➖    |        ➕        |
 | Required size of training set |       Quite large        |              Small              |
 
 
