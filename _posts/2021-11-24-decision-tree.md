@@ -72,6 +72,7 @@ $$
 
 
 **Variance** is used in regression models. Should remain low to avoid overfitting the model.
+
 $$
 Variance=\frac{\sum(X-\overline{X})^2}{n}
 $$
