@@ -5,7 +5,7 @@ title: "3-3. 특성공학과 규제 (실습)"
 date: 2021-11-24
 excerpt: "특성공학과 규제 실습"
 tags: [Feature Engineering, Regularization, AI, ML, Artificial intelligence, machine learning, megazone, ai center]
-author: debbie
+author: yunju
 ---
 
 
@@ -174,7 +174,7 @@ poly.get_feature_names()
 
     /Users/mz01-lyoonj/opt/miniconda3/envs/ml/lib/python3.7/site-packages/sklearn/utils/deprecation.py:87: FutureWarning: Function get_feature_names is deprecated; get_feature_names is deprecated in 1.0 and will be removed in 1.2. Please use get_feature_names_out instead.
       warnings.warn(msg, category=FutureWarning)
-
+    
     ['x0', 'x1', 'x2', 'x0^2', 'x0 x1', 'x0 x2', 'x1^2', 'x1 x2', 'x2^2']
 
 
@@ -373,9 +373,9 @@ plt.show()
 ```
 
 
-    
+​    
 ![png](/assets/img/yunju/fe_code/output_42_0.png)
-    
+​    
 
 
 적절한 alpha 값 : 0.1
@@ -440,9 +440,9 @@ plt.show()
 ```
 
 
-    
+​    
 ![png](/assets/img/yunju/fe_code/output_52_0.png)
-    
+​    
 
 
 
