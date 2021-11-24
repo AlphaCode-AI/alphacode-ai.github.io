@@ -57,23 +57,26 @@ In the picture below, the opposite happened.
 
 The criterias are what help the algorith choosing to go one branch or another. There are many but the 3 main ones are:
 
-**Gini Impurity** measures how often the value would be wrongly classified if the decision was made randomly. How impure is a nod. \n
+**Gini Impurity** measures how often the value would be wrongly classified if the decision was made randomly. How impure is a nod.
+
 $$
 I_G(n)=1-\sum_{i=1}^{J}(p_i)^2
 $$
 
 
-**Entropy** measures the tidyness of a system in a dataset and helps choosing the value that brings most gain of information (the decision made in the root node) \n
+**Entropy** measures the tidyness of a system in a dataset and helps choosing the value that brings most gain of information (the decision made in the root node)
+
 $$
 Entropy=\sum_{i=1}^C-p_i*log_2(p_i)
 $$
-\n
+
+
 **Variance** is used in regression models. Should remain low to avoid overfitting the model.
 $$
 Variance=\frac{\sum(X-\overline{X})^2}{n}
 $$
-\n
-\n
+
+
 ## Implementation
 
 With Python and SciKitLearn it is easy to create a machine learning model using a decision tree. There are many datasets available online to test it out. 
@@ -178,7 +181,8 @@ graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
 Image(graph.create_png())
 ```
 
-Result: \n
+Result:
+
 ![Iris Decision Tree](/assets/img/Charlie/article_4/iris_tree.png)
 
 
