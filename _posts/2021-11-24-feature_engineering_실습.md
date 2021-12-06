@@ -1,6 +1,6 @@
 ---
-Layout: post
-Published: true
+layout: post
+published: true
 title: "3-3. 특성공학과 규제 (실습)"
 date: 2021-11-24
 excerpt: "특성공학과 규제 실습"

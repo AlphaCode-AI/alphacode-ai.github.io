@@ -1,6 +1,6 @@
 ---
-Layout: post
-Published: true
+layout: post
+published: true
 title: "Decision Trees - 결정 트리"
 feature-img: "/assets/img/Charlie/article_4/decision_tree_feature_img.png"
 thumbnail: "/assets/img/Charlie/article_4/decision_tree_thumbnail.png"
