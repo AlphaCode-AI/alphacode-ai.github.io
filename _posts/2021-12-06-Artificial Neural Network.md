@@ -59,8 +59,6 @@ author: cindy
 - 출력 결과는 피쳐맵(feature map) 또는 활성화맵(actication map)이라고 한다.
 ![png](/assets/img/Cindy/ann/CNN_0.png)
 
-<img src="https://m.blog.naver.com/msnayana/220776380373?view=img_1">
-
 - 합성곱을 진행할수록 이미지 크기가 줄어든다. -> 이러한 현상을 해결하기 위해 Padding 기법 사용
   
 ### Padding 처리
