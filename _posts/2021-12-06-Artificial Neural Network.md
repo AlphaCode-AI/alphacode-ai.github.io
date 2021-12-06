@@ -17,7 +17,7 @@ author: cindy
 - 각 노드의 가중치와 입력치를 곱한 것을 모두 합한 값이 활성함수에 의해 판단되는데, 그 값이 임계치(보통 0)보다 크면 뉴런이 활성화되고 결과값으로 1을 출력한다. 
 - 뉴런이 활성화되지 않으면 결과값으로 0을 출력 한다.
 
-<생물학적 신경세포 구성과 이를 모방한 인공신경망의 원리>
+생물학적 신경세포 구성과 이를 모방한 인공신경망의 원리
 
 ![png](/assets/img/Cindy/ann/ANN_2.png)
 
@@ -58,6 +58,8 @@ author: cindy
 - 필터(filter)는 이미지의 부분 부분을 이동하는데, 한번 움직일 떄 이동할 거리를 스트라이드(stride)라고 한다.
 - 출력 결과는 피쳐맵(feature map) 또는 활성화맵(actication map)이라고 한다.
 ![png](/assets/img/Cindy/ann/CNN_0.png)
+
+<img src="https://m.blog.naver.com/msnayana/220776380373?view=img_1">
 
 - 합성곱을 진행할수록 이미지 크기가 줄어든다. -> 이러한 현상을 해결하기 위해 Padding 기법 사용
   
