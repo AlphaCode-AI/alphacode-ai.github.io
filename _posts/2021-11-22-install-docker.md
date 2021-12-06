@@ -1,6 +1,6 @@
 ---
-Layout: post
-Published: true
+layout: post
+published: true
 title: "Install Docker Engine on Ubuntu"
 date: 2021-11-22
 excerpt: "How to install docker engine on Ubuntu"
