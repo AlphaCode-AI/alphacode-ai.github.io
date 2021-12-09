@@ -3,7 +3,6 @@ layout: post
 published: true
 title: "Learn Kubernetes Basics"
 date: 2021-12-06
-excerpt: "How to install docker engine on Ubuntu"
 tags: [Docker, ai center]
 author: emma
 ---
