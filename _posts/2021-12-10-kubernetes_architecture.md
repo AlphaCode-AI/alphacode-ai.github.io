@@ -16,15 +16,15 @@ author: debbie
 
 - 개발자 (or 운영자)가 컨테이너를 k8s 플랫폼에 올려서 실행하려는것이 목적
 
-1) 컨테이너 빌드
-2) docker 명령으로 hub에 push
-3) kubectl 명령으로 k8s에게 이 컨테이너가 실행되도록 명령 (yml, cli ...)
-4) 만들어진 kubectl 명령어 control-plane에게 보냄
-5) Control-plane에 있는 rest api server가 받아줌
-6) 스케줄러가 어떤 작업 노드에 배치하면 좋을지 결정. 결정된 노드의 kubelet에 실행 요청
-7) 요청 받은 노드는 kubelet 명령어를 docker로 변경하여 docker daemon에게 실제 컨테이너 실행 요청
-8) docker daemon은 hub에서 해당 컨테이너 이미지 search한 후에 pull , run
-9) k8s는 이렇게 동작되는 컨테이너를 pod라는 단위로 관리
+- 1. 컨테이너 빌드
+- 2. docker 명령으로 hub에 push
+- 3. kubectl 명령으로 k8s에게 이 컨테이너가 실행되도록 명령 (yml, cli ...)
+- 4. 만들어진 kubectl 명령어 control-plane에게 보냄
+- 5. Control-plane에 있는 rest api server가 받아줌
+- 6. 스케줄러가 어떤 작업 노드에 배치하면 좋을지 결정. 결정된 노드의 kubelet에 실행 요청
+- 7. 요청 받은 노드는 kubelet 명령어를 docker로 변경하여 docker daemon에게 실제 컨테이너 실행 요청
+- 8. docker daemon은 hub에서 해당 컨테이너 이미지 search한 후에 pull , run
+- 9. k8s는 이렇게 동작되는 컨테이너를 pod라는 단위로 관리
 
 
 
