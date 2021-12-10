@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: "[Kubernetes] Kubernetes Architecture"
+excerpt: "쿠버네티스 아키텍처"
 Date: 2021-12-10
 tags: [study,docker,Kubernetes,namespace]
 author: debbie
