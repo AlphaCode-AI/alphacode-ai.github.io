@@ -23,6 +23,7 @@ author: cindy
 ![png](/assets/img/Cindy/pod/pod_3.png)
 
 > 실습
+
   - CLI으로 pod 생성
   
 ![png](/assets/img/Cindy/pod/pod_4.png)
@@ -32,6 +33,7 @@ author: cindy
 ![png](/assets/img/Cindy/pod/pod_5.png)
 
 > 실습
+
   - yaml로 pod 생성
   - 하나의 pod에 centos 와 webserver 컨테이너가 따로 존재
   
@@ -47,6 +49,7 @@ author: cindy
 ![png](/assets/img/Cindy/pod/pod_8.png)
 
 > Question & Answer
+
 - dry -run 옵션 : 실행하지말고 실행이 되는지까지만 확인한다.
 ```bash
 # 컨테이너 image 'redis123'을 실행하는 pod 'redis'를 yaml을 이용해 생성하시오.
@@ -76,7 +79,7 @@ $ kubectl get pods
 
 ![png](/assets/img/Cindy/pod/pod_14.png)
 
-![png](/assets/img/Cindy/pod/pod_15.png)
+![png](/assets/img/Cindy/pod/pod_9.png)
   - failureThreshold : health check 실패 횟수
 
 # init container를 적용한 Pod
@@ -112,6 +115,37 @@ $ kubectl get pods
 # 정의된 곳에 Pod yaml를 넣어주면 동작한다.
 $ cat /var/lib/kubelet/config.yaml 
 ```
+
+# Pod에 리소스(cpu, memory) 할당하기
+- Resource Requests
+  - 파드를 실행하기 위한 최소 리소스 양을 요청
+- Resource Limits
+  - 파드가 사용할 수 있는 최대 리소스 양을 제한
+  - Memory limit을 초과해서 사용되는 파드는 종료(OOM kill)되며 다시 스케줄링 된다.
+- https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
+
+![png](/assets/img/Cindy/pod/pod_22.png)
+
+![png](/assets/img/Cindy/pod/pod_23.png)
+
+# Pod에 환경변수 설정하기
+
+![png](/assets/img/Cindy/pod/pod_24.png)
+
+> 실습
+
+![png](/assets/img/Cindy/pod/pod_25.png)
+
+![png](/assets/img/Cindy/pod/pod_26.png)
+
+# Pod 구성 패턴의 종류
+
+- Sidecar : App container에서 실행되는 log를 sidecar에 담아서 전송함.
+- Adapter : 외부의 데이터를 Adapter로 끌고와 App container를 통해서 그래프를 표시하는 방식
+- Ambassador : 데이터가 App container로 들어오면 해당 내용을 Ambassador가 받아 그 DB 자료를 다양한 곳으로 전송해주는 역할
+
+![png](/assets/img/Cindy/pod/pod_27.png)
+
 ---
 # Souce
 https://www.youtube.com/watch?v=0rYt3PcggzA&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c&index=10
@@ -123,3 +157,9 @@ https://www.youtube.com/watch?v=-NeJS7wQu_Q&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3
 https://www.youtube.com/watch?v=ChArV14J6Ek&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c&index=13
 
 https://www.youtube.com/watch?v=qEu_znIYCz0&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c&index=14
+
+https://www.youtube.com/watch?v=lxCtyWPsb-0&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c&index=15
+
+https://www.youtube.com/watch?v=Uc-VnK19T7w&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c&index=16
+
+https://velog.io/@exljhun307/pod-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98-%EC%84%A4%EC%A0%95%EA%B3%BC-%EC%8B%A4%ED%96%89-%ED%8C%A8%ED%84%B4
