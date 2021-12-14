@@ -104,7 +104,7 @@ $ kubectl get pods
 ![png](/assets/img/Cindy/pod/pod_20.png)
 
 # static Pod 만들기
-- API 서버없이 특정 노드에 있는 kubelet Daemon에 의해 동작에 의해 직접 관리
+- API 서버없이 특정 노드에 있는 kubelet Daemon 동작에 의해 직접 관리
 - /etc/kubernetes/manifests/ 디렉토리에 k8s yaml 파일을 저장 시 적용됨
 
 ![png](/assets/img/Cindy/pod/pod_21.png)
@@ -122,7 +122,11 @@ $ cat /var/lib/kubelet/config.yaml
 - Resource Limits
   - 파드가 사용할 수 있는 최대 리소스 양을 제한
   - Memory limit을 초과해서 사용되는 파드는 종료(OOM kill)되며 다시 스케줄링 된다.
+  - OOM killer : out of Memory Killer 의 약ㅏ로 메모리가 부족할 경우 프로세스를 강제로 종료시키는 역할
+  - CPU는 Milicore단위 (1,000 Milicore = 1Core ) , Memory는 Mbyte 단위로 할당
 - https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
+- 예를 들어 CPU request를 500ms로 하고, limit을 1000ms로 하면 해당 컨테이너는 처음에 생성될때 500ms를 사용할 수 있다. 그런데, 시스템 성능에 의해서 더 필요하다면 CPU가 추가로 더 할당되어 최대 1000ms 까지 할당될 수 있다.
+![png](/assets/img/Cindy/pod/pod_28.png)
 
 ![png](/assets/img/Cindy/pod/pod_22.png)
 
@@ -147,7 +151,7 @@ $ cat /var/lib/kubelet/config.yaml
 ![png](/assets/img/Cindy/pod/pod_27.png)
 
 ---
-# Souce
+# Source
 https://www.youtube.com/watch?v=0rYt3PcggzA&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c&index=10
 
 https://www.youtube.com/watch?v=ChArV14J6Ek&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c&index=11
@@ -163,3 +167,5 @@ https://www.youtube.com/watch?v=lxCtyWPsb-0&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3
 https://www.youtube.com/watch?v=Uc-VnK19T7w&list=PLApuRlvrZKohaBHvXAOhUD-RxD0uQ3z0c&index=16
 
 https://velog.io/@exljhun307/pod-%ED%99%98%EA%B2%BD%EB%B3%80%EC%88%98-%EC%84%A4%EC%A0%95%EA%B3%BC-%EC%8B%A4%ED%96%89-%ED%8C%A8%ED%84%B4
+
+https://bcho.tistory.com/1291
