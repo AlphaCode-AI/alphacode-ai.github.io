@@ -79,6 +79,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-jupyter-notebook
+  - jekyll-toc
 exclude:
   - .jekyll-cache
   - .idea
