@@ -7,6 +7,12 @@
 -->
 <html lang="en">
   {% include default/head.html %}
+
+  <head>
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
+  </head>
   <body>
     {% include default/navbar.html %}
     <div class="content">
@@ -15,8 +21,6 @@
     {% include default/footer.html %}
   </body>
 
-    {% if page.use_math %}
-      {% include Mathjax.html %}
-    {% endif %}
+
 
 </html>
