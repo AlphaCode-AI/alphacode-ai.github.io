@@ -22,14 +22,14 @@ Choose the right data structure for the right situation.
 - Set a criterion and compare 2 functions relative to it: how many operations are done? With this measure, regardless of the environment, we can estimate the performance of an algorithm.
 
 ```python
-												# Calculations 	Frequency
+					# Calculations 	Frequency
   def func(arr,init):
-    n = len(arr)				# 			1						1
-    ret = init					# 			1						1
-    for i in range(n):	   # 			1						n
-      ret += arr[i]			# 			1						n
-    return ret					# 			1						1
-  									# 									2n+3
+    n = len(arr)			# 1		1
+    ret = init				# 1		1
+    for i in range(n):	   		# 1		n
+      ret += arr[i]			# 1		n
+    return ret				# 1		1
+  					# 		2n+3
     arr = [1,2,3,4]
     result = func(arr,10)
     print(result)
@@ -137,14 +137,14 @@ Output = 25
 Looking at the previous code:
 
 ```python
-												# Calculations 	Frequency
+					# Calculations 	Frequency
   def func(arr,init):
-    n = len(arr)				# 			1						1
-    ret = init					# 			1						1
-    for i in range(n):	   #    		1						n
-      ret += arr[i]			# 			1						n
-    return ret					# 			1						1
-  									# 									2n+3
+    n = len(arr)			# 1		1
+    ret = init				# 1		1
+    for i in range(n):	   		# 1		n
+      ret += arr[i]			# 1		n
+    return ret				# 1		1
+  					# 		2n+3
     arr = [1,2,3,4]
     result = func(arr,10)
     print(result)
@@ -170,7 +170,7 @@ As n grows, their impact on computation time becomes negligible.
 
 As opposed to a data structure, an ADT is a data type that will work independently of the implementation details (choice of programming language). The ADT is defined by what operations should be performed, not how they should be implemented.
 
-![ADT](/Users/mzc01-charlie/Desktop/ADT.jpg)
+![ADT](/assets/img/Charlie/article_7/ADT.jpg)
 
 The user can make use of certain data types like Int, float, char. The user only needs to know he can use them, no need to know how at a deeper level.
 
