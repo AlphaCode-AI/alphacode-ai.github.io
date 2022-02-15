@@ -3,7 +3,7 @@ layout: post
 published: true
 title: "Red Black Trees - rules and node insertion"
 feature-img: "/assets/img/Charlie/article_8/RBTree.jpeg"
-thumbnail:  "/assets/img/Charlie/article_8/RBTree.jpeg"
+thumbnail:  "/assets/img/Charlie/article_8/thumbnail.png"
 date: 2022-02-15
 excerpt: "What are Red Black Trees? How to recognize them, and insert new nodes to them, while keeping the tree balanced"
 tags: [megazone, ai, red black tree, binary tree, trees, insert, node, red, black, redblack]
