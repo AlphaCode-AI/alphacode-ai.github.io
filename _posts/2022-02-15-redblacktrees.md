@@ -80,8 +80,6 @@ When adding a node, the red-black balance must be kept. So there are operations 
 
 #### Algorithm
 
-# if have time change color rule to start red and check if root + update yellow arrow position make more sense
-
 - [1] If tree is empty, first node (root node) is always black
 - [2] If tree is *not* empty, new node is always red
 - [3] If parent node is black - EXIT
@@ -111,15 +109,15 @@ Insert 40:
 
 ![insert4](/assets/img/Charlie/article_8/insert4.jpeg)
 
-Insert 60:
+Insert 60 then 2:
 
 ![insert5](/assets/img/Charlie/article_8/insert5.jpeg)
 
-Insert 2:
+Insert 1:
 
 ![insert6](/assets/img/Charlie/article_8/insert6.jpeg)
 
-Insert 1:
+Insert 70:
 
 ![insert7](/assets/img/Charlie/article_8/insert7.jpeg)
 
@@ -285,12 +283,12 @@ def __right_rotate(self,n):
 
 # Sources
 
-kwargs,args: https://www.programiz.com/python-programming/args-and-kwargs
+[What are **kwargs and *args](https://www.programiz.com/python-programming/args-and-kwargs)
 
-https://www.programiz.com/dsa/red-black-tree
+[Red Black tree properties](https://www.programiz.com/dsa/red-black-tree)
 
-https://www.youtube.com/watch?v=YWqla0UX-38
+[Rotations explained](https://www.youtube.com/watch?v=YWqla0UX-38)
 
-https://www.youtube.com/watch?v=qA02XWRTBdw
+[Red Black Tree node insertion](https://www.youtube.com/watch?v=qA02XWRTBdw)
 
-for deletion: https://www.youtube.com/watch?v=w5cvkTXY0vQ
+[Red Black Tree node deletion](https://www.youtube.com/watch?v=w5cvkTXY0vQ)
