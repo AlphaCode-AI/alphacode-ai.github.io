@@ -1,26 +1,27 @@
 <!DOCTYPE html>
-<!--
-    Type on Strap jekyll theme v2.3.6
-    Copyright 2016-2021 Sylhare
-    Theme free for personal and commercial use under the MIT license
-    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
--->
-<html lang="en">
-  {% include default/head.html %}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <head>
-    {% if page.use_math %}
-      {% include mathjax_support.html %}
-    {% endif %}
-  </head>
+  {%- include head.html -%}
+
   <body>
-    {% include default/navbar.html %}
-    <div class="content">
-      {{ content }}
-    </div>
-    {% include default/footer.html %}
+
+    {%- include views/header.html -%}
+
+    {%- include views/banner.html -%}
+
+    {%- include extensions/hashlocate.html -%}
+
+    {%- include extensions/theme-toggle.html -%}
+
+    {%- include extensions/click-to-top.html -%}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include views/footer.html -%}
+
   </body>
-
-
-
 </html>

@@ -16,14 +16,14 @@ _development_tool/*
 *.scssc
 .bundle/*
 /vendor/
-.jekyll-cache/*
+.jekyll-cache/
 */.jekyll-cache/*
 
 # Theme Gem
 Gemfile.lock
 *.gem
 .gems
-jekyll-theme-type-on-strap.gemspec
+jekyll-theme-yat.gemspec
 
 # Node.js
 **/node_modules/*

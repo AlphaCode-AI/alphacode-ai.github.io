@@ -1,79 +1,81 @@
 ---
-layout: default
+layout: framework
+banner:
+banner_html: post-header.html
+hidden: []
+sidebar:
+  - article-menu
 ---
-<article {% if page.feature-img or page.color %}class="feature-image" {% endif %}>
-  <header id="main" style="">
-    <div class="title-padder">
-      {% if page.hide_title %}
-      <div class="feature-image-padding"></div>
-      {% else %}
-      <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
-      {% include blog/post_info.html author=page.author date=page.date %}
-      {% endif %}
-    </div>
-  </header>
 
-  <section class="post-content">
-  {% if page.bootstrap %}
-    <div class="bootstrap-iso">
-    {% endif %}
-      {{ content }}
-    {% if page.bootstrap %}
+<div class="post">
+  <section>
+
+    {%- assign name = 'banner' -%}
+    {%- include functions.html func='get_value' -%}
+    {%- assign banner = return -%}
+
+    {%- assign name = 'hidden' -%}
+    {%- include functions.html func='get_value' -%}
+    {%- assign hidden = return -%}
+
+    {%- assign result = hidden | where_exp: "item", "item == 'header'" -%}
+    {%- if banner == nil and result.size == 0 -%}
+    {%- include views/post-header.html -%}
+    {%- endif -%}
+
+    {%- include views/article.html -%}
+
+    {%- assign result = hidden | where_exp: "item", "item == 'navigator'" -%}
+    {%- if result.size == 0 -%}
+    <div class="post-nav">
+      {%- if page.previous -%}
+        <a class="previous" href="{{ page.previous.url | relative_url }}" title="{{
+          page.previous.title | escape }}">{{ page.previous.title | escape | truncatewords: 6 }}</a>
+      {%- else -%}
+      <span></span>
+      {%- endif -%}
+
+      {%- if page.next -%}
+        <a class="next" href="{{ page.next.url | relative_url }}" title="{{ page.next.title | escape }}">{{ page.next.title | escape | truncatewords: 6 }}</a>
+      {%- else -%}
+      <span></span>
+      {%- endif -%}
     </div>
-  {% endif %}
+    {%- endif -%}
+
+    {%- assign result = hidden | where_exp: "item", "item == 'related_posts'" -%}
+    {%- if result.size == 0 -%}
+    <div class="post-related">
+      <div>Related Articles</div>
+      <ul>
+        {% assign posts = site[page.collection] | sample:4 %}
+        {%- for post in posts -%}
+        <li><a class="post-link" href="{{post.url | relative_url}}" title="{{ page.next.title | escape }}">{{ post.title | escape | truncatewords: 12 }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- endif -%}
+
+    {%- assign result = hidden | where_exp: "item", "item == 'comments'" -%}
+    {%- if result.size == 0 -%}
+    <div class="post-comments">
+      {%- if page.comments != false -%}
+
+      {%- if site.disqus.shortname -%}
+      {%- include extensions/comments/disqus.html -%}
+      {%- endif -%}
+
+      {%- if site.gitment.username -%}
+      {%- include extensions/comments/gitment.html -%}
+      {%- endif -%}
+
+      {%- if site.utterances.repo -%}
+      {%- include extensions/comments/utterances.html -%}
+      {%- endif -%}
+
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+
   </section>
-
-  <!-- Social media shares -->
-  {% include social/share_buttons.html %}
-
-   <!-- Tag list -->
-  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
-  {% include default/tags_list.html tags=tag_list %}
-  
-  
-
-
-
-</article>
-
-<!-- Post navigation -->
-{% if site.post_navigation  or site.theme_settings.post_navigation %}
-{% include blog/post_nav.html %}
-{% endif %}
-
-<!-- Cusdis -->
-{% if site.cusdis_app_id %}{% include social/cusdis.html %}{% endif %}
-
-
-
-<!-- To change color of links in the page -->
-<style>
-  header#main {
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-  }
-  
-  {% if page.color %}
-  .feature-image a { color: {{ page.color }} !important; }
-  div#post-nav a { color: {{ page.color }} !important; }
-  footer a { color: {{ page.color }} !important; }
-  .site-header nav a:hover {  color: {{ page.color }} !important; }
-  header#main { 
-      background-color: {{ page.color }} !important;
-      background-image: url('{{ site.color_image | relative_url }}');
-  }
-  {% endif %}
-  
-  {% if page.feature-img %}
-  header#main { background-image: url('{{ page.feature-img | relative_url }}'); }
-  {% endif %}
-</style>
-
-<script src="https://utteranc.es/client.js"
-        repo="MZCloudnoa/mzcloudnoa.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+</div>
