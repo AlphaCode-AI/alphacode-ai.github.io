@@ -23,7 +23,7 @@ _development_tool/*
 Gemfile.lock
 *.gem
 .gems
-jekyll-theme-yat.gemspec
+
 
 # Node.js
 **/node_modules/*
