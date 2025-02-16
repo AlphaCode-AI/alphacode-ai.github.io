@@ -2,10 +2,11 @@
 layout: post
 title: AI 모델 간 협업을 통한 Chain of Thought
 subtitle: AI 다중 모델 협업
-author: James
+author: 정하성
 categories: Tech
 tags: 인공지능 언어모델 CoT
 ---
+
 
 # AI 모델 간 협업을 통한 Chain of Thought
 

@@ -2,7 +2,7 @@
 layout: post
 title: TITANs(트랜스포머 2.0) 기술 분석 및 영향 보고서
 subtitle: 차세대 트렌스포머 아키텍쳐
-author: James
+author: 정하성
 categories: Tech
 tags: 기술분석 TITANs 논문
 ---
