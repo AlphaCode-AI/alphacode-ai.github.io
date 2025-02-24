@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 비둘기에서 AI까지: 연결 기술이 바꾼 패권과 한국의 미래
+title: 비둘기에서 AI까지%3A 연결 기술이 바꾼 패권과 한국의 미래
 subtitle: 연결 기술이 바꾼 패권과 한국의 미래
 author: 정하성
 categories: Column
