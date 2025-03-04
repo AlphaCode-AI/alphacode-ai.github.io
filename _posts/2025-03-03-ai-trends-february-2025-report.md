@@ -146,11 +146,11 @@ AI 기술이 점점 자율성을 보임에 따라 사회적 통제와 규범 마
 
 [OpenAI, 딥씨크 충격에 오픈모델 가능성 시사... O3 긴급 공개 – 성능 벤치마크, 애니메이션 비교, 딥씨크, 타임 스케일링, 오픈소스 가능성](https://youtu.be/OOr4Ie2nKWY?si=XDI9ojB22b0TnWFl)
 
-[딥씨크 공개한 기술대로 했더니... 30달러로 되더라 | 버클리 박사과정 학생이 증명한 딥씨크 알고리즘, 팩트체크](https://youtu.be/9QgBmfN7qeY?si=oEToFghnz7iquSio)
+[딥씨크 공개한 기술대로 했더니... 30달러로 되더라 \| 버클리 박사과정 학생이 증명한 딥씨크 알고리즘, 팩트체크](https://youtu.be/9QgBmfN7qeY?si=oEToFghnz7iquSio)
 
 [美 앨런인공지능연구소, 中 '딥시크 R1'과 유사하며, '딥시크 v3' 및 'GPT-4o' 뛰어넘는?... '툴루3 405B' 오픈소스로 공개](https://www.notion.so/R1-v3-GPT-4o-3-405B-18f4f32e7b608115a2bcca25bd3b17cd?pvs=21)
 
-[AI 코딩, 제2의 물결이 시작된다 - MIT 테크놀로지 리뷰 | MIT Technology Review Korea](https://www.notion.so/AI-2-MIT-MIT-Technology-Review-Korea-18f4f32e7b6081aa9728e8a917642c02?pvs=21)
+[AI 코딩, 제2의 물결이 시작된다 - MIT 테크놀로지 리뷰 \| MIT Technology Review Korea](https://www.notion.so/AI-2-MIT-MIT-Technology-Review-Korea-18f4f32e7b6081aa9728e8a917642c02?pvs=21)
 
 [‘6조 대어 LG CNS’ 이번주 시장 나온다...이번달 상장 기업은?](https://www.notion.so/6-LG-CNS-18f4f32e7b60812b9df0e81de0039e51?pvs=21)
 
@@ -158,13 +158,13 @@ AI 기술이 점점 자율성을 보임에 따라 사회적 통제와 규범 마
 
 [OpenAI Deep Research 발표 소식](https://youtu.be/-t_5OhEewhk?si=c_n7WnTZshGJynhO)
 
-[Electron에 대해 사람들이 잘못 알고 있는 것들 | GeekNews](https://www.notion.so/Electron-GeekNews-1914f32e7b6081d38403ce47ade7ca66?pvs=21)
+[Electron에 대해 사람들이 잘못 알고 있는 것들 \| GeekNews](https://www.notion.so/Electron-GeekNews-1914f32e7b6081d38403ce47ade7ca66?pvs=21)
 
 [새로운 괴물 인공지능이 나타났다! 딥 리서치! 당신의 직업을 '삭제' 합니다 ㄷㄷㄷ](https://youtu.be/8TyjphM8wcg?si=V8FzHCHg72A70uZ3)
 
 [유럽 기업, 오픈AI에서 딥시크로 갈아 타나..."저렴한 가격으로 미국 추격에 도움" < 산업일반 < 산업 < 기사본문 - AI타임스](https://www.notion.so/AI-AI-1924f32e7b60817ca744d79fa486f121?pvs=21)
 
-[[유럽스타트업열전] 딥시크를 바라보는 유럽의 세 가지 시선 | 비즈한국](https://www.notion.so/1924f32e7b608109b5bae3ddbbdd4fa1?pvs=21)
+[[유럽스타트업열전] 딥시크를 바라보는 유럽의 세 가지 시선 \| 비즈한국](https://www.notion.so/1924f32e7b608109b5bae3ddbbdd4fa1?pvs=21)
 
 [국내 첫 ‘철도 위 콤팩트시티’…남양주 다산 새도시에 건설](https://www.notion.so/1924f32e7b6081abb122e024df8733bc?pvs=21)
 
@@ -172,13 +172,13 @@ AI 기술이 점점 자율성을 보임에 따라 사회적 통제와 규범 마
 
 [오픈AI, 딥시크처럼 'o3-미니' 추론 과정 공개](https://www.notion.so/AI-o3-1944f32e7b608134badec7c1b9b07312?pvs=21)
 
-[<초점>국내 은행권 생성형 AI 도입 현황은…](https://www.notion.so/AI-1954f32e7b60811aaee2ff136cd4a23d?pvs=21)
+[\<초점\>국내 은행권 생성형 AI 도입 현황은…](https://www.notion.so/AI-1954f32e7b60811aaee2ff136cd4a23d?pvs=21)
 
-[美 스탠퍼드·워싱턴대 "50달러로 오픈AI 버금 AI 모델 개발" | 연합뉴스](https://www.notion.so/50-AI-AI-1974f32e7b6081b48a69cb9bf662a374?pvs=21)
+[美 스탠퍼드·워싱턴대 "50달러로 오픈AI 버금 AI 모델 개발" \| 연합뉴스](https://www.notion.so/50-AI-AI-1974f32e7b6081b48a69cb9bf662a374?pvs=21)
 
 [오픈AI, 자체 칩 제작사로 TSMC 낙점](https://www.notion.so/AI-TSMC-1974f32e7b60818cbabac8ea34a5be30?pvs=21)
 
-["메타, 한국의 AI 칩 설계 스타트업 '퓨리오사AI' 인수 논의" | 연합뉴스](https://www.notion.so/AI-AI-1974f32e7b6081fd9bacddbc5cbef6c3?pvs=21)
+["메타, 한국의 AI 칩 설계 스타트업 '퓨리오사AI' 인수 논의" \| 연합뉴스](https://www.notion.so/AI-AI-1974f32e7b6081fd9bacddbc5cbef6c3?pvs=21)
 
 [BYD 자율주행 무료선언! 테슬라 어쩌나? BYD 행사 발표 내용 정리 '신의 눈?' 테슬라 BYD 자율주행 경쟁의 승자는?](https://youtu.be/4_IO8E4dn_8?si=G3CjlUbO4D0k4tIA)
 
@@ -208,11 +208,11 @@ AI 기술이 점점 자율성을 보임에 따라 사회적 통제와 규범 마
 
 [트럼프 "반도체 되찾겠다"…파운드리 대격변 예고 / 한국경제TV뉴스](https://youtu.be/pgWAjfkheo0?si=S2ejyku5jyO7tr6t)
 
-[인텔 파운드리 부활 신호탄...? TSMC-인텔 합작회사 논의설… tsmc 엔지니어 인텔에 파견 루머 | 기술적으로 정말 도움이 되나 | CoWoS AVP](https://youtu.be/fSwO3-uNHSo?si=2hFIMOTOYbd3J87I)
+[인텔 파운드리 부활 신호탄...? TSMC-인텔 합작회사 논의설… tsmc 엔지니어 인텔에 파견 루머 \| 기술적으로 정말 도움이 되나 \| CoWoS AVP](https://youtu.be/fSwO3-uNHSo?si=2hFIMOTOYbd3J87I)
 
 [‘은둔의 경영자’ 이해진이 온다…네이버 ‘한국형 AI’ 끌어올릴까](https://www.notion.so/AI-19c4f32e7b6081eab73ac45964a3ae12?pvs=21)
 
-[OpenAI o3의 미친 성능... 결국 딥시크 방식 x 테슬라 FSD 였다 | AGI로 가는 길에 강화학습과 Test-Time Compute 기반 Reasoning은 필수?](https://youtu.be/Br6le7O8NmM?si=ZZrROddXbXBIi6RN)
+[OpenAI o3의 미친 성능... 결국 딥시크 방식 x 테슬라 FSD 였다 \| AGI로 가는 길에 강화학습과 Test-Time Compute 기반 Reasoning은 필수?](https://youtu.be/Br6le7O8NmM?si=ZZrROddXbXBIi6RN)
 
 [OpenAI-O3 논문](https://arxiv.org/html/2502.06807v1)
 
@@ -222,7 +222,7 @@ AI 기술이 점점 자율성을 보임에 따라 사회적 통제와 규범 마
 
 [머스크 급했나…최고 똑똑한 '그록3' 자신했지만 미완성 공개](https://www.notion.so/3-19f4f32e7b6081e296d9cc22a38d84ef?pvs=21)
 
-[BigQuery, 이제 SQL 파이프 구문 사용 가능 | GeekNews](https://www.notion.so/BigQuery-SQL-GeekNews-19f4f32e7b6081eb8689fb3e92a0c5c2?pvs=21)
+[BigQuery, 이제 SQL 파이프 구문 사용 가능 \| GeekNews](https://www.notion.so/BigQuery-SQL-GeekNews-19f4f32e7b6081eb8689fb3e92a0c5c2?pvs=21)
 
 [샘 알트먼 ‘GPT-4.5’ 시험 후기 화제… “AGI를 느낄 수 있었다” – AI 매터스](https://www.notion.so/GPT-4-5-AGI-AI-19f4f32e7b6081bab6d7e0ffa023b52f?pvs=21)
 
@@ -250,7 +250,7 @@ AI 기술이 점점 자율성을 보임에 따라 사회적 통제와 규범 마
 
 [성공사례냐 K팹리스 한계냐…업계 시선 엇갈리는 퓨리오사AI [긱스]](https://www.notion.so/K-AI-1a54f32e7b6081d5adf7c1360e8ea408?pvs=21)
 
-["테슬라, 中서 첨단 주행보조 FSD 소프트웨어 곧 출시" | 연합뉴스](https://www.notion.so/FSD-1a54f32e7b6081068cb5ca010e8a0c44?pvs=21)
+["테슬라, 中서 첨단 주행보조 FSD 소프트웨어 곧 출시" \| 연합뉴스](https://www.notion.so/FSD-1a54f32e7b6081068cb5ca010e8a0c44?pvs=21)
 
 [인간 진작에 뛰어넘은 AI 코딩의 "신", 클로드 3.7 소넷이 돌아왔다! 이번엔 혼자서 개발까지 합니다ㅋ](https://youtu.be/nS4M2da6MQ8?si=iZ_TOKprJ2I3uMfb)
 
@@ -260,6 +260,6 @@ AI 기술이 점점 자율성을 보임에 따라 사회적 통제와 규범 마
 
 [테무, 쿠팡 택배 분류 알바 곧 사라지나… 테슬라 대항마 Figure AI, 물류센터에서 단체로 택배 정리하는 영상과 업데이트 공개](https://youtu.be/aYl7yDm9FRo?si=DQcx1OG3xZQ9vTiw)
 
-[27년 된 EXE 파일을 Claude 3.7에 업로드한 후 일어난 놀라운 일 | GeekNews](https://www.notion.so/27-EXE-Claude-3-7-GeekNews-1a94f32e7b60818aa289f45debc0c55b?pvs=21)
+[27년 된 EXE 파일을 Claude 3.7에 업로드한 후 일어난 놀라운 일 \| GeekNews](https://www.notion.so/27-EXE-Claude-3-7-GeekNews-1a94f32e7b60818aa289f45debc0c55b?pvs=21)
 
 [오픈AI 능가한 'GUI 에이전트' 프록시, 소형 버전 오픈 소스 출시](https://www.notion.so/AI-GUI-1a94f32e7b6081588e27ea22308afdc1?pvs=21)
